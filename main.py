@@ -9,7 +9,7 @@ date = st.date_input("Day Of Carwash: ", format="DD/MM/YYYY")
 time = st.time_input("Time Of Carwash: ")
 
 st.subheader("Select Package")
-selected = st.radio("Select a option to wash your car", ["Simple Microfiber Rub - ₹100", "Microfiber rub with water, soap - ₹200", "Hardcore scrub - ₹250"]
+selected = st.radio("Select a option to wash your car", ["Simple Microfiber Rub - ₹100", "Microfiber rub with water, soap - ₹200", "Hardcore scrub - ₹250"])
 
 submit_button = st.button("Submit a booking")
 
